@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+@layer components {
+.btnLink {
+@apply hover:border-b-2 border-b-2 hover:border-opacity-100 border-opacity-0 border-b-white text-white cursor-pointer font-semibold text-sm focus:text-primary transition
+} 
+}

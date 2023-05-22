@@ -1,0 +1,23 @@
+ .underlineAnim {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+}
+
+.underlineAnim:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out; 
+}
+
+.underlineAnim:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
