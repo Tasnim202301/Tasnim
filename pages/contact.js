@@ -23,10 +23,10 @@ export default function Contact() {
               {t("contactTitle")}
             </h1>
             <p className="font-medium">{t("contactSubtitle")}</p>
-            <div className="flex items-center gap-5">
+            {/* <div className="flex items-center gap-5">
               <BsTelephoneFill size={20} />
               <p> {t("numbers")}</p>
-            </div>
+            </div> */}
             {/* <div className="flex items-end gap-3">
               <MdOutlineEmail size={25} />
               <p>{t("emails")}</p>
