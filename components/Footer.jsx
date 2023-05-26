@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
         <Form />
         <div className="flex justify-between flex-col md:flex-row">
-          <h1>{t("numbers")}</h1>
+          {/* <h1>{t("numbers")}</h1> */}
           <h1>Uzbekistan, Tashkent</h1>
           {/* <h1>Info@gmail.com</h1> */}
         </div>
